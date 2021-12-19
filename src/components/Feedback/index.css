@@ -1,0 +1,14 @@
+.feedback {
+  max-width: 100vw;
+  background-color: #f6f6f6;
+  padding: 150px 0;
+}
+.container {
+  width: 1561px;
+}
+.feedback-info-phone {
+  color: #f8c212;
+}
+.feedback-button {
+  background-color: #f8c212;
+}
