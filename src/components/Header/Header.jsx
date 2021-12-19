@@ -7,7 +7,7 @@ const Header = () => {
       <div className="header__container">  
           <div className="header__content">
             <div className="header__logo">
-                Kelvin<span>.</span>
+                Kelvin<span>!!!</span>
             </div>
             <nav className="header__navigation">
               <ul>

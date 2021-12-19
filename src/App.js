@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      HELLO
+      HELLO WORLD!!!
         <h1>Vasya</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, recusandae?</p>
     </div>
