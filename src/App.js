@@ -1,6 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
+
 import Header from './components/Header/Header';
+import Feedback from './components/Feedback/Feedback';
+
 
 function App() {
   return (
@@ -8,6 +10,7 @@ function App() {
       <Header />
       HELLO WORLD!!!
         <h1>Vasya</h1>
+        <Feedback />
     </div>
   );
 }
