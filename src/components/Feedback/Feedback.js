@@ -11,12 +11,14 @@ function Feedback () {
                         <p className="feedback-info-text"> Alternatively, please send me a message using the concact form and i'll get back to you</p>
                     </div>
                     <form action="#" class="feedback-form">
-                        <input class="input name-input" type="text" placeholder="Your Name" />
-                        <input class="input email-input" type="email" placeholder="Your Email" />
-                        <input class="input phone-input" type="tel" placeholder="Your Phone" />
-                        <textarea class="input message-input" type="text" placeholder="Message" />
+                        <div className="form-contact">
+                            <input class="input name-input" type="text" placeholder="Your Name" />
+                            <input class="input email-input" type="email" placeholder="Your Email" />
+                            <input class="input phone-input" type="tel" placeholder="Your Phone" />
+                            <textarea class="input message-input" type="text" placeholder="Message" />
+                        </div>
+                        <button class="form-button" type="submit">Send Message</button>
                     </form>
-                    <button class="feedback-button" type="submit">Send Message</button>
                 </div>
             </div>
         );
