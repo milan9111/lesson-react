@@ -1,13 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      HELLO WORLD!!!
-        <h1>Vasya</h1>
+      <Router>
+         <Routes>
+            <Route path="/" element={<Header />} />
+         </Routes>
+         <Footer />
+      </Router>
     </div>
   );
 }
