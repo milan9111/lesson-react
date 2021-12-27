@@ -1,0 +1,21 @@
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1300px;    
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #d8e2ef;
+    border-radius: 2px;
+}
+img {
+    width: 335px;
+    height: 335px;
+    padding: 44px;
+    object-fit: contain;    
+}
