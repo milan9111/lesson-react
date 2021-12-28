@@ -1,0 +1,27 @@
+.productsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    grid-template-rows: auto auto auto;
+}
+.productsBox {
+    border: 1px solid #d8e2ef;
+    border-radius: 2px;
+}
+.productsContainer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 350px;
+    padding: 60px;
+    object-fit: contain;    
+}
+@media (min-width: 0px) {
+    .productsContainer { grid-template-columns: repeat(1, 2fr); }
+}
+@media (min-width: 900px) {
+    .productsContainer { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1400px) {
+    .productsContainer { grid-template-columns: repeat(3, 1fr); }
+}
