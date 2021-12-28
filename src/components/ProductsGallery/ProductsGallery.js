@@ -17,15 +17,13 @@ function ProductsGallery() {
     products.length = 6;
 
     return (
-        <div className='products'>
-            <div className='container'>
+            <div className='productsContainer'>
                 {products.map(elem =>
-                    <div className="box" key={elem.id}>
+                    <div className="productsBox" key={elem.id}>
                         <img src={elem.image} alt={elem.description} title={elem.title} />
                     </div>
                 )}
             </div>
-        </div>
     )
 }
 
