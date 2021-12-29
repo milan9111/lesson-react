@@ -1,0 +1,35 @@
+.advantages {
+    padding: 100px 370px;
+}
+
+.advantages-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-item {
+    font-family: Poppins;
+    max-width: 340px;
+}
+
+.advantages-item__img {
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.advantages-item__title {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 20px 0;
+    margin-right: 20px;
+}
+
+.advantages-item__describe {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #252525;
+}

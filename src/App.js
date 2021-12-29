@@ -5,6 +5,7 @@ import ProductsGallery from './components/ProductsGallery/ProductsGallery';
 import Feedback from './components/Feedback/Feedback';
 import Footer from './components/Footer/Footer';
 import Benefits from './components/Benefits/Benefits';
+import Advantages from './components/Advantages/Advantages';
 
 function App () {
   return (
@@ -13,6 +14,7 @@ function App () {
         <Routes>
           <Route path="/" element={ <Header /> } />
         </Routes>
+        <Advantages />
         <Benefits />
         <ProductsGallery />
         <Feedback />
